@@ -4,6 +4,8 @@ html { box-sizing: border-box; }
 
 body {
     text-rendering: optimizeLegibility;
+    padding: 100px;
+    font-family: 'Rubik', sans-serif;
 }
 
 /*
@@ -21,3 +23,136 @@ body {
 */
 
 /* ----- zde zacni psat vlastni css ----- */
+
+.kontejner     {
+    display:flex;  
+    /* box-shadow: 10px 10px 50px grey; */
+    height: 440px;
+    width: 670px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+
+.levapolovina {
+    flex-basis: 335px;
+    flex-grow: 0;
+    flex-shrink: 0;
+    background-image: linear-gradient(to bottom,#06d7c1,#50cc49);
+    position:relative;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    color: white;
+    box-shadow: -10px 10px 50px grey;
+}
+
+.obrazeknike {
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.text1 {
+    font-weight: 500;
+    font-size: 16px;
+    position: absolute;
+    top: 65px;
+    left: 30px;
+
+}
+
+.text2 {
+    font-size: 28px;
+    /* margin-right: 30px; */
+    position: absolute;
+    bottom: 45px;
+    right: 30px;
+    font-weight: 500;
+}
+
+.text3 {
+    font-size: 12px;
+    /* margin-right: 30px; */
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    font-weight: 400;
+}
+
+.obrazekbota {
+    position: absolute;
+    bottom: 20px;
+    left: -80px;    
+}
+
+.pravapolovina {
+    position: relative;
+    flex-basis: 335px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    flex-grow: 0;
+    flex-shrink: 0;
+    box-shadow: ;
+    box-shadow: 10px 10px 50px grey;
+}
+
+h1 {
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 30px;
+    margin-left: 30px;
+    text-transform: uppercase;
+}
+
+.text11 {
+    font-size: 12px;
+    color: grey;
+    margin-bottom: 30px;
+    margin-left: 30px;
+}
+
+.text12 {
+    font-size: 14px;
+    padding-bottom: 30px;
+    border-bottom: 2px solid #06d7c1;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-size: 16px;
+    margin-left: 30px;
+}
+
+.dokosiku {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    color:white;
+    padding: 20px 50px;
+    text-align: center;
+    margin-left: 30px;
+    background-color: #f15f42;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 30px;
+}
+
+.kontejner2 {
+    display: flex;  
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-left: 10px;
+    gap: 25px;
+    margin:0 30px;
+    align-items: baseline;
+}
+
+.velikost38 {
+    color: #f15f42;
+    border: 1px solid #f15f42;
+    border-radius: 50%;
+    padding: 5px 5px;
+}
+
